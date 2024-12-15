@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product List</title>
+    <style>
+        body {
+            font-family: 'Times New Roman', serif;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #3c0a05;
+            color: white;
+            padding: 30px;
+            text-align: center;
+            font-size: 28px;
+            letter-spacing: 1px;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+
+        .product-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin: 20px;
+        }
+
+        .product-item {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            width: 200px;
+            margin: 20px;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .product-item img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+
+        .product-item h3 {
+            font-size: 20px;
+            color: #3c0a05;
+            margin: 10px 0;
+        }
+
+        .product-item p {
+            font-size: 16px;
+            color: #666;
+        }
+
+        .product-item .price {
+            font-size: 18px;
+            color: #e74c3c;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        Product List
+    </header>
+
+    <div class="product-list">
+        <!-- Example Product 1 -->
+        <div class="product-item">
+            <img src="https://i.ibb.co/3M4fct7/Messenger-creation-A9-D754-FE-D694-468-D-ABDB-05-A80127-DBE6.jpg" alt="Product 1">
+            <h3>Patent leather ankle boots</h3>
+            <p>High-quality fashion item.</p>
+            <p class="price">$99.99</p>
+        </div>
+
+        <!-- Example Product 2 -->
+        <div class="product-item">
+            <img src="https://i.ibb.co/2n2xdS1/Messenger-creation-10-C9281-D-9-B1-B-4140-8662-542-C67-C1-BC30.jpg" alt="Product 2">
+            <h3>Patent leather Mary Jane pumps</h3>
+            <p>Exclusive design and style.</p>
+            <p class="price">$129.99</p>
+        </div>
+
+        <!-- Example Product 3 -->
+        <div class="product-item">
+            <img src="https://i.ibb.co/5xjLZ9n/Messenger-creation-CF1378-F1-7-D17-488-A-AC64-06-BD6441-F4-CB.jpg" alt="Product 3">
+            <h3>Prada Galleria Saffiano leather micro bag</h3>
+            <p>Luxurious material and elegance.</p>
+            <p class="price">$159.99</p>
+        </div>
+    </div>
+
+</body>
+</html>
+
